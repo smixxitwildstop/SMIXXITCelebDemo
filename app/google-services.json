@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "94425076166",
+    "firebase_url": "https://smixxitceleb.firebaseio.com",
+    "project_id": "smixxitceleb",
+    "storage_bucket": "smixxitceleb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94425076166:android:c09488ecc63bff44",
+        "android_client_info": {
+          "package_name": "com.wildstop.smixxitceleb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94425076166-bfnulr06j7a5n0isu8f713qh4oevnu85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWTTjsYHalw28oBrfv9cJwwKcc0EwkrdM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94425076166-bfnulr06j7a5n0isu8f713qh4oevnu85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

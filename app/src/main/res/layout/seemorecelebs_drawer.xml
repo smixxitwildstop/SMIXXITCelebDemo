@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/seemorecelebs"
+    android:background="#ef7e7b7b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:background="#329EAE"
+            android:id="@+id/textview_smixxit_celebs"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Your Friends"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_below="@+id/textview_smixxit_celebs"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/justinbieber_img"
+                    android:layout_margin="15dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/kim_kardashian_img"
+                    android:layout_toEndOf="@id/justinbieber_img"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/chrisbrown_img"
+                    android:layout_below="@+id/justinbieber_img"
+                    android:layout_margin="15dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/chance_img"
+                    android:layout_toEndOf="@id/justinbieber_img"
+                    android:layout_below="@+id/kim_kardashian_img"
+                    android:layout_alignTop="@id/chrisbrown_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/lady_gaga_img"
+                    android:layout_margin="15dp"
+                    android:layout_below="@+id/chrisbrown_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/jovi_img"
+                    android:layout_alignTop="@id/lady_gaga_img"
+                    android:layout_toEndOf="@id/chrisbrown_img"
+                    android:layout_below="@id/chance_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/kloe_kardashian"
+                    android:layout_below="@+id/lady_gaga_img"
+                    android:layout_margin="15dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+
+                    android:layout_toEndOf="@id/lady_gaga_img"
+                    android:id="@+id/tyler_img"
+                    android:layout_below="@+id/jovi_img"
+                    android:layout_alignTop="@id/kloe_kardashian"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_margin="15dp"
+                    android:id="@+id/usher_img"
+                    android:layout_below="@+id/kloe_kardashian"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_alignTop="@id/usher_img"
+                    android:layout_toEndOf="@id/kloe_kardashian"
+                    android:layout_below="@id/tyler_img"
+                    android:id="@+id/nicki_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_margin="15dp"
+                    android:layout_below="@id/usher_img"
+                    android:id="@+id/rae_shremmurd_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_alignTop="@id/rae_shremmurd_img"
+                    android:layout_toEndOf="@id/usher_img"
+                    android:layout_below="@id/nicki_img"
+                    android:id="@+id/kanye_west"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_margin="15dp"
+                    android:layout_below="@id/rae_shremmurd_img"
+                    android:id="@+id/metro_boomin"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:layout_alignTop="@id/metro_boomin"
+                    android:layout_toEndOf="@id/usher_img"
+                    android:layout_below="@id/nicki_img"
+                    android:id="@+id/coldplay_img"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:civ_border_color="#EEEEEE"
+                    app:civ_border_width="4dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_radius="10"
+                    app:civ_shadow_color="#8BC34A"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+        </ScrollView>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

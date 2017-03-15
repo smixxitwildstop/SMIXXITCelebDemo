@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/seemorefriends"
+    android:background="#dc329eae"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="#329EAE"
+            android:id="@+id/textview_smixxit_celebs"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="TOP FOLLOWERS"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_below="@+id/textview_smixxit_celebs"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <ImageView
+                android:src="@mipmap/dos"
+                android:id="@+id/imageview_list_one"
+                android:adjustViewBounds="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:src="@mipmap/dos"
+                android:id="@+id/imageview_list_two"
+                android:adjustViewBounds="true"
+                android:layout_below="@+id/imageview_list_one"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

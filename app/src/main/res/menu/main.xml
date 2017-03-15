@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            app:showAsAction="always"
+            android:id="@+id/home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="Import" />
+        <item
+            app:showAsAction="always"
+            android:id="@+id/nearme"
+            android:icon="@mipmap/ic_near_me_black_24dp"
+            android:title="Gallery" />
+        <item
+            app:showAsAction="always"
+            android:id="@+id/profile"
+            android:icon="@mipmap/ic_account_box_black_24dp"
+            android:title="Slideshow" />
+
+        <item
+
+            app:showAsAction="always"
+            android:id="@+id/earn"
+            android:icon="@mipmap/ic_monetization_on_black_24dp"
+            android:title="Share" />
+        <item
+            app:showAsAction="always"
+            android:id="@+id/navback"
+            android:icon="@mipmap/ic_backspace_black_24dp"
+            android:title="Send" />
+
+        <item
+            app:showAsAction="always"
+            android:id="@+id/aknoledgements"
+            android:icon="@drawable/common_full_open_on_phone"
+            android:title="Send" />
+
+
+    </group>
+</menu>
